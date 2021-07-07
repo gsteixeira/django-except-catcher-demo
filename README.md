@@ -1,5 +1,7 @@
 # except-catcher-demo
-Demo for django-except-catcher
+
+Demo django project for [django-except-catcher](https://github.com/gsteixeira/django-except-catcher)
+
 
 Instalation
 

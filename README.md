@@ -18,10 +18,8 @@ Instalation
     python manage.py runserver
 ```
 
-Login as superuser, now go to url:
+Now go to url, and login as superuser:
 
-    http://localhost:8000/errors/
+    http://localhost:8000/
 
-You can now throw an exception in the url:
-
-    http://localhost:8000/test-exception/
+Click in _Throw an error_, go back, now click in _See errors_.

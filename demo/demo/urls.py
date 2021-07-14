@@ -19,7 +19,7 @@ from demo import views
 
 urlpatterns = [
     path('', views.home),
-    path('admin/', admin.site.urls),
     path('', include(('except_catcher.urls', 'except_catcher'),
                      namespace="except_catcher")),
+    path('admin/', admin.site.urls),
 ]

@@ -1,0 +1,8 @@
+services:
+  except-catcher:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    image: except-catcher-demo:0.6
